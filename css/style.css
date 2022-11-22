@@ -53,7 +53,7 @@ a {
 
 .nav-link:hover {
     border: 1px solid #e9204f;
-    color: #777777;
+    color: #fff;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -102,6 +102,7 @@ a {
     color: #e9204f;
     transition: .2s ease-in
 }
+
 
 /* Blocks */
 
@@ -186,7 +187,7 @@ a {
 
 .next-wrapp {
     background-color: #101010;
-    height: 1148px;
+    height: auto;
     background-size: cover;
 }
 
@@ -324,7 +325,6 @@ a {
     border: 1px solid #e9204f;
     width: 30px;
     margin-top: 112px;
-
 }
 
 .works-row {
@@ -365,14 +365,9 @@ a {
     text-transform: uppercase;
 }
 
+
 /* Slider */
 
-body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
 
 
 /* Slider wrapper*/
@@ -420,28 +415,29 @@ body {
 
 /* each slide backgound color */
 
-
 .slide1 {
     background: #101010;
     left: 0%;
 }
 
+
 /* slide image */
+
 .dandelion {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
 }
 
 .computer {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .piano {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -452,23 +448,24 @@ body {
     left: 100%
 }
 
+
 /* slide image */
 
 .boy {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
 }
 
 .glasses {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .skyscrapers {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -480,20 +477,20 @@ body {
 }
 
 .gold {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
 }
 
 .aircraft {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .mixer {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -505,78 +502,81 @@ body {
 }
 
 .cow {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
 }
 
 .mountain {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .station {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
+
 .slide5 {
     background: #101010;
     left: 400%;
 }
 
 .soldier {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
 }
+
 .yachts {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .astronaut {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
+
 .slide6 {
     background: #101010;
     left: 500%;
 }
 
 .car {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
 }
 
 .architecture {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .forest {
-    width: 420px;
+    width: 500px;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
+
 .slider > div {
     text-align: center;
 }
 
 
 /* Slider inner slide effect */
-
 
 .slider .button {
     color: #FFF;
@@ -661,7 +661,9 @@ body {
 /* Slider Pagger arrow event */
 
 .slide-radio1:checked ~ .previous .numb1,
+
 /* ДОБАВИЛ */
+
 .slide-radio1:checked ~ .next .numb2,
 .slide-radio2:checked ~ .next .numb3,
 .slide-radio3:checked ~ .next .numb4,
@@ -673,9 +675,9 @@ body {
 .slide-radio5:checked ~ .previous .numb4,
 .slide-radio6:checked ~ .previous .numb5,
 .slide-radio4:checked ~ .next .numb5
-
 /* ДОБАВИЛ */
-    {
+
+{
     display: block;
     z-index: 1
 }
@@ -686,8 +688,9 @@ body {
 .slide-radio1:checked ~ .slider-pagination .page1,
 .slide-radio2:checked ~ .slider-pagination .page2,
 .slide-radio3:checked ~ .slider-pagination .page3,
-.slide-radio4:checked ~ .slider-pagination .page4, .slide-radio5:checked ~ .slider-pagination .page5,
-.slide-radio6:checked ~ .slider-pagination .page6{
+.slide-radio4:checked ~ .slider-pagination .page4,
+.slide-radio5:checked ~ .slider-pagination .page5,
+.slide-radio6:checked ~ .slider-pagination .page6 {
     background: #e9204f;
     border: 1px solid #e9204f 0.2;
 }
@@ -701,29 +704,30 @@ body {
 }
 
 .slide-radio2:checked ~ .slider {
-    -webkit-transform: translateX(-1400px);
-    transform: translateX(-1350px);
+    -webkit-transform: translateX(-1585px);
+    transform: translateX(-1585px);
 }
 
 .slide-radio3:checked ~ .slider {
-    -webkit-transform: translateX(-1800px);
-    transform: translateX(-2700px);
+    -webkit-transform: translateX(-3165px);
+    transform: translateX(-3165px);
 }
 
 .slide-radio4:checked ~ .slider {
-    -webkit-transform: translateX(-4250px);
-    transform: translateX(-4050px);
+    -webkit-transform: translateX(-4750px);
+    transform: translateX(-4750px);
 }
 
 .slide-radio5:checked ~ .slider {
-    -webkit-transform: translateX(-6150px);
-    transform: translateX(-5400px);
+    -webkit-transform: translateX(-6333px);
+    transform: translateX(-6333px);
 }
 
 .slide-radio6:checked ~ .slider {
-    -webkit-transform: translateX(-8045px);
-    transform: translateX(-6745px);
+    -webkit-transform: translateX(-7915px);
+    transform: translateX(-7915px);
 }
+
 .slide-radio1:checked ~ .slide1 h2,
 .slide-radio2:checked ~ .slide2 h2,
 .slide-radio3:checked ~ .slide3 h2,
@@ -735,26 +739,150 @@ body {
 .slide-radio3:checked ~ .slide3 .button,
 .slide-radio4:checked ~ .slide4 .button,
 .slide-radio5:checked ~ .slide5 .button,
-.slide-radio6:checked ~ .slide6 .button{
+.slide-radio6:checked ~ .slide6 .button {
     -webkit-transform: translateX(0);
     transform: translateX(0);
     opacity: 1
 }
 
-@media only screen and (max-width: 767px) {
-    .slider h2 {
-        font-size: 20px;
-    }
+.after-slider-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-    .slider > div {
-        padding: 0 2%
-    }
+.vertical-hr3 {
+    border: 1px solid #e9204f;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 140px;
+    transform: rotate(90deg);
+}
 
-    .control label {
-        font-size: 35px;
-    }
+.about-hr {
+    border: 1px solid #e9204f;
+    width: 30px;
+    margin-top: 112px;
+}
 
-    .slider .button {
-        padding: 0 15px;
-    }
+.about-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-heading {
+    margin-top: 53px;
+    font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about-text {
+    margin-top: 58px;
+    line-height: 1.5;
+    color: #acacac;
+}
+
+.about-subheading {
+    margin-top: 38px;
+    color: #e9204f;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.office-row {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 61px;
+}
+
+.first-block {
+    background: url(../img/teamwork.jpg);
+    width: 770px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.teamwork-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 520px;
+    right: 300px;
+}
+
+.teamwork-subheading {
+    color: #cacaca;
+    position: relative;
+    top: 525px;
+    left: 32px;
+}
+
+.second-block {
+    background: url(../img/philosophy.jpg);
+    width: 400px;
+    height: 284px;
+    margin-left: 30px;
+}
+
+.philosophy-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 207px;
+    text-align: center;
+    position: relative;
+    right: 115px;
+}
+
+.philosophy-subheading {
+    color: #cacaca;
+    position: relative;
+    left: 30px;
+    margin-top: 5px;
+
+}
+
+.third-block {
+    background: url(../img/office.jpg);
+    width: 400px;
+    height: 284px;
+    margin-top: 60px;
+    object-fit: cover;
+}
+
+.office-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    right: 145px;
+    top: 207px;
+}
+
+.office-subheading {
+    color: #cacaca;
+    position: relative;
+    left: 27px;
+    top: 215px;
+
+}
+
+.about-us-row {
+    margin-top: 75px;
+    display: flex;
+    align-content: space-between;
+}
+
+.about-us-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.about-us-text {
+    color: #cacaca;
 }
