@@ -112,25 +112,34 @@ a {
     margin-top: 40px;
 }
 
-.block1 {
+.block:first-child {
     background-color: #e9204f;
     width: 380px;
     height: 380px;
 }
 
-.block2 {
+.block {
     background-color: #1b1b1b;
     width: 380px;
     height: 380px;
 }
 
-.block3 {
+.block {
     background-color: #1b1b1b;
     width: 380px;
     height: 380px;
     z-index: 3;
 }
 
+.block4 {
+    background-color: #e9204f;
+    position: relative;
+    z-index: 2;
+    left: 820px;
+    bottom: 56px;
+    width: 400px;
+    height: 69px;
+}
 .block-icon {
     margin-left: 45px;
     margin-top: 65px;
@@ -163,16 +172,6 @@ a {
     font-size: 18px;
 }
 
-.block4 {
-    background-color: #e9204f;
-    position: relative;
-    z-index: 2;
-    left: 820px;
-    bottom: 56px;
-    right: 100px;
-    width: 400px;
-    height: 69px;
-}
 
 
 /* Midlle */
