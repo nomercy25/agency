@@ -118,27 +118,25 @@ a {
     height: 380px;
 }
 
-.block {
+.block:nth-child(2) {
     background-color: #1b1b1b;
     width: 380px;
     height: 380px;
 }
 
-.block {
+.block:last-child {
     background-color: #1b1b1b;
     width: 380px;
     height: 380px;
     z-index: 3;
 }
 
-.block4 {
+.block:last-child::after {
     background-color: #e9204f;
-    position: relative;
-    z-index: 2;
     left: 820px;
     bottom: 56px;
     width: 400px;
-    height: 69px;
+    height: 809px;
 }
 .block-icon {
     margin-left: 45px;
@@ -226,42 +224,34 @@ a {
     justify-content: space-between;
 }
 
-.section1 {
+.section:first-child {
     background-color: #191919;
     width: 380px;
     height: 103px;
 }
 
-.section2 {
-    background-color: #191919;
-    width: 380px;
-    height: 103px;
-    margin-left: 30px;
-}
-
-.section3 {
+.section:nth-child(2) {
     background-color: #191919;
     width: 380px;
     height: 103px;
     margin-left: 30px;
 }
 
-.section4 {
+.section:nth-child(3) {
+    background-color: #191919;
+    width: 380px;
+    height: 103px;
+    margin-left: 30px;
+}
+
+.section:nth-child(4) {
     background-color: #191919;
     width: 380px;
     height: 103px;
     margin-top: 30px;
 }
 
-.section5 {
-    background-color: #191919;
-    width: 380px;
-    height: 103px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
-.section6 {
+.section:nth-child(5){
     background-color: #191919;
     width: 380px;
     height: 103px;
@@ -269,14 +259,7 @@ a {
     margin-left: 30px;
 }
 
-.section7 {
-    background-color: #191919;
-    width: 380px;
-    height: 103px;
-    margin-top: 30px;
-}
-
-.section8 {
+.section:nth-child(6) {
     background-color: #191919;
     width: 380px;
     height: 103px;
@@ -284,7 +267,22 @@ a {
     margin-left: 30px;
 }
 
-.section9 {
+.section:nth-child(7) {
+    background-color: #191919;
+    width: 380px;
+    height: 103px;
+    margin-top: 30px;
+}
+
+.section:nth-child(8) {
+    background-color: #191919;
+    width: 380px;
+    height: 103px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.section:last-child {
     background-color: #191919;
     width: 380px;
     height: 103px;
@@ -332,6 +330,7 @@ a {
 }
 
 .works-heading {
+    content: "hello";
     margin-top: 53px;
     font-size: 44px;
     font-weight: 600;
@@ -814,7 +813,7 @@ a {
 }
 
 .teamwork-subheading {
-    color: #cacaca;
+    color: #acacac;
     position: relative;
     top: 525px;
     left: 32px;
@@ -838,7 +837,7 @@ a {
 }
 
 .philosophy-subheading {
-    color: #cacaca;
+    color: #acacac;
     position: relative;
     left: 30px;
     margin-top: 5px;
@@ -864,7 +863,7 @@ a {
 }
 
 .office-subheading {
-    color: #cacaca;
+    color: #acacac;
     position: relative;
     left: 27px;
     top: 215px;
@@ -874,7 +873,7 @@ a {
 .about-us-row {
     margin-top: 75px;
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
 }
 
 .about-us-heading {
@@ -882,6 +881,23 @@ a {
     font-weight: 600;
     font-size: 20px;
 }
+
+.about-us-heading:first-child{
+    width: 100%;
+    margin: 0 30px, 0;
+}
+
+.about-us-heading:nth-child(2) {
+    margin: 0 0 0 20px;
+    width: 100%;
+}
+.about-us-heading:last-child {
+    margin: 0 30px, 0;
+    width: 100%;
+}
 .about-us-text {
-    color: #cacaca;
+    color: #acacac;
+    margin-top: 52px;
+    font-size: 18px;
+    font-weight: 500;
 }
