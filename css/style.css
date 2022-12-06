@@ -1082,6 +1082,9 @@ a {
 /* Second-Slider */
 
 
+/* Slider */
+
+
 /* Slider wrapper*/
 
 .slider-wrapper {
@@ -1283,14 +1286,14 @@ a {
     margin-left: 29px;
 }
 
-.second-slider > div {
+.slider > div {
     text-align: center;
 }
 
 
 /* Slider inner slide effect */
 
-.second-slider .button {
+.slider .button {
     color: #FFF;
     padding: 5px 30px;
     background: rgba(255, 255, 255, 0.3);
