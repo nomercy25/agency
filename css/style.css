@@ -665,11 +665,6 @@ a {
 
 
 /* Slider Pagger arrow event */
-
-.slide-radio1:checked ~ .previous .numb1,
-
-/* ДОБАВИЛ */
-
 .slide-radio1:checked ~ .next .numb2,
 .slide-radio2:checked ~ .next .numb3,
 .slide-radio3:checked ~ .next .numb4,
@@ -681,9 +676,8 @@ a {
 .slide-radio4:checked ~ .previous .numb3,
 .slide-radio5:checked ~ .previous .numb4,
 .slide-radio6:checked ~ .previous .numb5,
+.slide-radio1:checked ~ .previous .numb6,
 .slide-radio4:checked ~ .next .numb5
-/* ДОБАВИЛ */
-
     {
     display: block;
     z-index: 1
@@ -1359,11 +1353,6 @@ a {
 
 
 /* Slider Pagger arrow event */
-
-.slider-radio1:checked ~ .previous-page .number1,
-
-/* ДОБАВИЛ */
-
 .slider-radio1:checked ~ .next-page .number2,
 .slider-radio2:checked ~ .next-page .number3,
 .slider-radio3:checked ~ .next-page .number4,
@@ -1374,9 +1363,9 @@ a {
 .slider-radio4:checked ~ .previous-page .number3,
 .slider-radio5:checked ~ .previous-page .number4,
 .slider-radio6:checked ~ .previous-page .number5,
+.slider-radio1:checked ~ .previous-page .number6,
 .slider-radio6:checked ~ .next-page .number1,
 .slide-radio4:checked ~ .next-page .number5
-/* ДОБАВИЛ */
 
     {
     display: block;
@@ -1611,10 +1600,15 @@ a {
     display: flex;
     padding-top: 37px;
     justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
 .rights {
     color: #6c6c6c;
+    margin-top: 15px;
 }
 
 .gentium {
@@ -1622,8 +1616,10 @@ a {
 }
 
 .terms {
-    margin: 0 20px;
+    margin: 0px 20px;
     font-weight: 100;
+
+
 }
 
 .privacy {
