@@ -6,7 +6,7 @@
 }
 
 body {
-    min-width: 1320px;
+    min-width: 1220px;
 }
 /* html */
 
@@ -90,6 +90,7 @@ a {
 }
 
 .btn {
+    padding: 15px 15px 15px 15px;
     color: #fff;
     font-size: 16px;
     text-align: center;
