@@ -5,6 +5,9 @@
     border: 0;
 }
 
+body {
+    min-width: 1220px;
+}
 /* html */
 
 .wrapper {
@@ -197,7 +200,7 @@ a {
 
 .middle-container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1220px;
     margin: 0 auto;
     padding-top: 120px;
 }
@@ -748,7 +751,7 @@ a {
 }
 
 .after-slider-container {
-    max-width: 1200px;
+    max-width: 1220px;
     height: auto;
     margin: 0 auto;
 }
@@ -1444,7 +1447,7 @@ a {
 
 .footer-container {
     margin: 0 auto;
-    width: 1200px;
+    width: 1220px;
 }
 
 .vertical-hr6 {
@@ -1537,7 +1540,7 @@ a {
 }
 
 .contact-container {
-    width: 1200px;
+    width: 1220px;
     margin: 0 auto;
 }
 
@@ -1587,7 +1590,7 @@ a {
 }
 
 .last-container {
-    width: 1200px;
+    width: 1220px;
     margin: 0 auto;
 }
 
