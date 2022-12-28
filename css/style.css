@@ -5,9 +5,7 @@
     border: 0;
 }
 
-body {
-    min-width: 1200px;
-}
+
 
 /* html */
 
@@ -200,7 +198,6 @@ a {
 }
 
 .middle-container {
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 120px;
@@ -1448,7 +1445,7 @@ a {
 
 .footer-container {
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .vertical-hr6 {
@@ -1591,7 +1588,7 @@ a {
 }
 
 .last-container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
