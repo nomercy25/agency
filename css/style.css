@@ -5,9 +5,7 @@
     border: 0;
 }
 
-body {
-    min-width: 1220px;
-}
+
 /* html */
 
 .wrapper {
@@ -98,6 +96,8 @@ a {
     width: 190px;
     height: 60px;
     line-height: 60px;
+    position: relative;
+    bottom: 220px;
 }
 
 .btn:hover {
@@ -1625,4 +1625,79 @@ a {
 
 .cookie {
     font-weight: 100;
+}
+
+@media screen and (max-width: 1920px) {
+    .container {}
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        max-width: 100%;
+    }
+    .container {
+        width: 1140px;
+    }
+    .slider slide1 {
+        width: 33, 3%;
+    }
+    .slider slide2 {
+        width: 33, 3%;
+    }
+    .slider slide3 {
+        width: 33, 3%;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .wrapper {
+        min-width: 1230px;
+    }
+    .next-wrapp {
+        min-width: 1230px;
+    }
+    .container {
+        width: 960px;
+    }
+    .middle-row {
+        flex-wrap: nowrap;
+    }
+    .subheading {
+        font-size: 55px;
+    }
+    .btn {
+        position: relative;
+        bottom: 220px;
+    }
+    
+    .second-slider-wrapper {
+        min-width: 1230px;
+    }
+    .footer-wrapper {
+        min-width: 1230px;
+    }
+    .contact-wrapper {
+        min-width: 1230px;
+    }
+    .last-footer {
+        min-width: 1230px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
 }
