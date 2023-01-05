@@ -434,20 +434,20 @@ a {
 /* slide image */
 
 .dandelion {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .computer {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .piano {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -462,20 +462,20 @@ a {
 /* slide image */
 
 .boy {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .glasses {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .skyscrapers {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -487,20 +487,20 @@ a {
 }
 
 .gold {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .aircraft {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .mixer {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -512,20 +512,20 @@ a {
 }
 
 .cow {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .mountain {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .station {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -537,20 +537,20 @@ a {
 }
 
 .soldier {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .yachts {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .astronaut {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -562,20 +562,20 @@ a {
 }
 
 .car {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .architecture {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .forest {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -804,11 +804,10 @@ a {
     margin-top: 61px;
 }
 
-.first-block {
-    background: url(../img/teamwork.jpg);
-    width: 770px;
+.teamwork-img {
+    width: 100%;
     height: 600px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .teamwork-heading {
@@ -817,46 +816,46 @@ a {
     font-size: 20px;
     text-align: center;
     position: relative;
-    top: 520px;
+    bottom: 86px;
     right: 300px;
 }
 
 .teamwork-subheading {
     color: #acacac;
     position: relative;
-    top: 525px;
+    bottom: 79px;
     left: 32px;
 }
 
-.second-block {
-    background: url(../img/philosophy.jpg);
-    width: 400px;
+.philosophy-img {
+    width: 100%;
     height: 284px;
     margin-left: 30px;
+    object-fit: cover;
 }
 
 .philosophy-heading {
     color: #fff;
     font-weight: 600;
     font-size: 20px;
-    margin-top: 207px;
-    text-align: center;
     position: relative;
-    right: 115px;
+    bottom: 85px;
+    left: 61px;
 }
 
 .philosophy-subheading {
     color: #acacac;
     position: relative;
-    left: 30px;
-    margin-top: 5px;
+    bottom: 79px;
+    left: 61px;
 }
 
-.third-block {
-    background: url(../img/office.jpg);
-    width: 400px;
+.office-img {
+    width: 100%;
     height: 284px;
-    margin-top: 60px;
+    position: relative;
+    left: 30px;
+    bottom: 16px;
     object-fit: cover;
 }
 
@@ -864,21 +863,20 @@ a {
     color: #fff;
     font-weight: 600;
     font-size: 20px;
-    text-align: center;
     position: relative;
-    right: 145px;
-    top: 207px;
+    left: 60px;
+    bottom: 101px;
 }
 
 .office-subheading {
     color: #acacac;
     position: relative;
-    left: 27px;
-    top: 215px;
+    left: 60px;
+    bottom: 96px;
 }
 
 .about-us-row {
-    margin-top: 75px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -891,24 +889,21 @@ a {
 
 .about-us-heading:first-child {
     width: 100%;
-    margin: 0 30px, 0;
 }
 
 .about-us-heading:nth-child(2) {
-    margin: 0 0 0 20px;
     width: 100%;
 }
 
 .about-us-heading:last-child {
-    margin: 0 30px, 0;
     width: 100%;
 }
 
 .about-us-text {
     color: #acacac;
     margin-top: 52px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .vertical-hr4 {
@@ -966,7 +961,8 @@ a {
 .experience-subheading {
     color: #e9204f;
     margin-top: 39px;
-    margin-left: -30px;
+    position: relative;
+    right: 30px;
     font-weight: 600;
     text-transform: uppercase;
     width: 330px;
@@ -974,15 +970,17 @@ a {
 
 .experience-text {
     color: #acacac;
-    font-weight: 500;
-    margin-left: -30px;
+    font-weight: 400;
+    position: relative;
+    right: 30px;
     margin-top: 90px;
 }
 
 .experience-bottom-hr {
     width: 30px;
     margin-top: 70px;
-    margin-left: -30px;
+    position: relative;
+    right: 30px;
     border: 1px solid #fff;
 }
 
@@ -1084,8 +1082,7 @@ a {
     width: 100%;
     left: 0;
     right: 0;
-    top: 0;
-    padding-bottom: 250px;
+    padding-top: 140px;
 }
 
 
@@ -1096,7 +1093,7 @@ a {
     height: 100%;
     position: absolute;
     left: 0;
-    top: 0;
+    top: -53px;
     opacity: 1;
     z-index: 0;
     display: flex;
@@ -1124,21 +1121,21 @@ a {
 }
 
 .dandelion {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     z-index: 2;
 }
 
 .computer {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .piano {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -1150,20 +1147,20 @@ a {
 }
 
 .boy {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .glasses {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .skyscrapers {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -1175,20 +1172,20 @@ a {
 }
 
 .gold {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .aircraft {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .mixer {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -1200,20 +1197,20 @@ a {
 }
 
 .cow {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .mountain {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .station {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -1225,20 +1222,20 @@ a {
 }
 
 .soldier {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .yachts {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .astronaut {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -1250,20 +1247,20 @@ a {
 }
 
 .car {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
 }
 
 .architecture {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
 }
 
 .forest {
-    width: 500px;
+    width: 31%;
     height: 300px;
     object-fit: cover;
     margin-left: 29px;
@@ -1305,7 +1302,7 @@ a {
     top: 50%;
     width: 50px;
     height: 50px;
-    margin-top: -25px;
+    margin-top: -76px;
     z-index: 55;
 }
 
@@ -1337,7 +1334,7 @@ a {
 
 .slider-changer {
     position: absolute;
-    bottom: 120px;
+    bottom: 129px;
     width: 100%;
     left: 0;
     text-align: center;
@@ -1455,7 +1452,7 @@ a {
     background: #e3904f;
     width: 60px;
     margin: 0 auto;
-    margin-top: -85px;
+    margin-top: -83px;
     transform: rotate(90deg);
 }
 
@@ -1651,13 +1648,14 @@ a {
 
 @media screen and (max-width: 1199px) {
     .wrapper {
-        min-width: 1230px;
+        min-width: 1240px;
     }
     .next-wrapp {
-        min-width: 1230px;
+        min-width: 1240px;
     }
     .container {
         width: 960px;
+        margin: 0 auto;
     }
     .middle-row {
         flex-wrap: nowrap;
@@ -1669,18 +1667,87 @@ a {
         position: relative;
         bottom: 220px;
     }
-    
+    .block:last-child {
+        width: 319px;
+    }
     .second-slider-wrapper {
-        min-width: 1230px;
+        min-width: 1240px;
+    }
+    .middle-container {
+        width: 967px;
+    }
+    .section:first-child {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+    }
+    .section:nth-child(2) {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+        margin-left: 30px;
+    }
+    .section:nth-child(3) {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+        margin-left: 30px;
+    }
+    .section:nth-child(4) {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+        margin-top: 30px;
+    }
+    .section:nth-child(5) {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .section:nth-child(6) {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .section:nth-child(7) {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+        margin-top: 30px;
+    }
+    .section:nth-child(8) {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .section:last-child {
+        background-color: #191919;
+        width: 31%;
+        height: 103px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .icon-arrow {
+        position: relative;
+        left: 239px;
+    }
+    .after-slider-container {
+        max-width: 967px;
     }
     .footer-wrapper {
-        min-width: 1230px;
+        min-width: 1240px;
     }
     .contact-wrapper {
-        min-width: 1230px;
+        min-width: 1240px;
     }
     .last-footer {
-        min-width: 1230px;
+        min-width: 1240px;
     }
 }
 
